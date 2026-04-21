@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Fundamentals Lab</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My HTML Lab</h1>
+        <nav>
+            <ul>
+                <li><a href="#structure">Structure</a></li>
+                <li><a href="#form">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="structure">
+            <article>
+                <h2>Subtask 4.1: Content Tags</h2>
+                <p>This is a paragraph demonstrating the use of semantic and basic tags. Below is a line break and a horizontal rule.</p>
+                <br>
+                <hr>
+                <h3>Subtask 4.2: Lists and Links</h3>
+                <p>Here is an ordered list:</p>
+                <ol>
+                    <li>First Item</li>
+                    <li>Second Item</li>
+                </ol>
+                <p>Here is an unordered list:</p>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                </ul>
+                <p>Learn more at <a href="https://www.w3schools.com">W3Schools</a>.</p>
+            </article>
+        </section>
+
+        <section id="form">
+            <h2>Subtask 5.1: Build a Basic Form</h2>
+            <form action="#">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <p>Gender:</p>
+                <div class="inline-group">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="inline-group">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+
+                <br>
+
+                <div class="inline-group">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Subscribe to newsletter</label>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Lab Exercise</p>
+    </footer>
+
+</body>
+</html>
