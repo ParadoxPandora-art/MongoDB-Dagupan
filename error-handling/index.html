@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="main-container">
+        <h1>Interactive Events</h1>
+        
+        <form id="user-form">
+            <input type="text" id="text-input" placeholder="Type something here..." autocomplete="off">
+            <select id="color-select">
+                <option value="transparent">Default</option>
+                <option value="#f0f8ff">Alice Blue</option>
+                <option value="#f5f5dc">Beige</option>
+                <option value="#e6e6fa">Lavender</option>
+            </select>
+            <button type="submit" id="submit-btn">Submit Form</button>
+        </form>
+
+        <div class="controls">
+            <button id="click-me-btn">Click Me!</button>
+            <div id="hover-zone">Hover over me!</div>
+        </div>
+
+        <div class="output-area">
+            <h3>Live Output:</h3>
+            <p><strong>Last Event:</strong> <span id="event-status">None</span></p>
+            <p><strong>Input Value:</strong> <span id="current-text">...</span></p>
+            <p><strong>Last Key:</strong> <span id="last-key">None</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
